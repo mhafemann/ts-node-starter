@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "tsc",
-		"dev": "node --env-file=.env --watch -r tsx src/index.ts",
+		"dev": "tsx --env-file=.env src/index.ts",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"engines": {
