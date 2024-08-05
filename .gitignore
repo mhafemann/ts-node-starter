@@ -1,5 +1,6 @@
 .env
 .pnpm-lock.yaml
+.vscode
 # Logs
 logs
 *.log
