@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
+    "dev": "node --env-file=.env --watch -r tsx src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -17,8 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.1.0",
-    "ts-node": "^10.9.2",
     "tslib": "^2.6.3",
+    "tsx": "^4.16.5",
     "typescript": "^5.5.4"
   },
   "dependencies": {
