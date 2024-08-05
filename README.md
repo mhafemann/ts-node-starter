@@ -2,12 +2,14 @@ simple ts-node skeleton
 
 ## Usage
 
-````bash
+### Clone the repository
+
+```bash
 npx degit https://github.com/mhafemann/ts-node-starter.git
 ```
 
-## Install
+### Install Dependencies
 
 ```bash
-npm install
-````
+pnpm i
+```
