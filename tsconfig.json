@@ -1,9 +1,7 @@
 {
-  "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "module": "NodeNext",
     "noEmit": true,
-    "target": "esnext",
     "moduleResolution": "NodeNext",
     "outDir": "dist",
     "sourceMap": true,
@@ -11,10 +9,6 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
-  },
-  "ts-node": {
-    "files": true,
-    "transpileOnly": true
   },
   "include": ["src/**/*.ts", "declarations/**.d.ts"],
   "exclude": ["node_modules", ".vscode"]
