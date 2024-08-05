@@ -1,15 +1,30 @@
-simple ts-node skeleton
+# Simple ts-node Skeleton
+
+A simple TypeScript Node.js starter project for tinkering / non-production use.
 
 ## Usage
 
-### Clone the repository
+### :clipboard: Clone the Repository
 
-```bash
-npx degit https://github.com/mhafemann/ts-node-starter.git
+```sh
+npx degit https://github.com/mhafemann/ts-node-starter.git new-project
 ```
 
-### Install Dependencies
+### :file_folder: Install Dependencies
 
-```bash
+```sh
 pnpm i
+```
+
+### :page_with_curl: Scripts
+
+```sh
+# Start the server
+pnpm start
+
+# Start the server in watch mode
+pnpm dev
+
+# Build the project
+pnpm build
 ```
