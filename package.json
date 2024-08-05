@@ -1,5 +1,5 @@
 {
-  "name": "congress_app",
+  "name": "ts-node-starter",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
